@@ -1,0 +1,82 @@
+# Galaxy Profile README Configuration
+# Copy this file to config.yml and customize it to make it your own!
+
+# Your GitHub username (required)
+username: Rakshitk2223
+
+# Profile information displayed in the galaxy header
+profile:
+  name: "Rakshit Kumar"
+  tagline: "AI Product Engineer & Software Builder"
+  location: "India"
+  bio: |
+    Building AI products, cloud-backed workflows, and software systems.
+    Passionate about automation, analytics, and user-first web experiences.
+
+# Social links displayed at the bottom of the profile
+social:
+  email: "jrakshitk35@gmail.com"
+  linkedin: "jrakshitkumar"
+  website: "https://rakshitstatuswindow.netlify.app/"
+
+# Galaxy arms represent your core focus areas
+galaxy_arms:
+  - name: "AI/ML"
+    color: "synapse_cyan"
+    items:
+      - "Python"
+      - "vLLM"
+      - "Ollama"
+      - "Transformers"
+  - name: "Web Dev"
+    color: "dendrite_violet"
+    items:
+      - "JavaScript"
+      - "React"
+      - "Three.js"
+      - "Tailwind"
+  - name: "Cloud"
+    color: "axon_amber"
+    items:
+      - "AWS"
+      - "Docker"
+      - "GitHub Actions"
+
+# Featured projects shown as constellation stars
+projects:
+  - repo: "Rakshitk2223/llm_councilmen"
+    arm: 0
+    description: "Multi-agent AI system for LLM coordination"
+  - repo: "Rakshitk2223/NoteHaven"
+    arm: 1
+    description: "Your project management solution"
+
+# Theme color overrides (optional)
+theme:
+  void: "#080c14"
+  nebula: "#0f1623"
+  star_dust: "#1a2332"
+  synapse_cyan: "#00d4ff"
+  dendrite_violet: "#a78bfa"
+  axon_amber: "#ffb020"
+  text_bright: "#f1f5f9"
+  text_dim: "#94a3b8"
+  text_faint: "#64748b"
+
+# Stats configuration
+stats:
+  metrics:
+    - "commits"
+    - "stars"
+    - "prs"
+    - "issues"
+    - "repos"
+
+# Language display settings
+languages:
+  exclude:
+    - "HTML"
+    - "CSS"
+    - "Shell"
+    - "Makefile"
+  max_display: 8
